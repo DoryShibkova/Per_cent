@@ -1,0 +1,8 @@
+per_cent = {'ТКБ': 5.6, 'СКБ': 5.9, 'ВТБ': 4.28, 'СБЕР': 4.0}
+deposit =  []
+money = int(input())
+for m in per_cent:
+    per_cent[m] = money * per_cent[m]/100
+    deposit.append(per_cent[m])
+print(deposit)
+print(max(deposit))
