@@ -1,0 +1,14 @@
+a = int(input("Введите колличество билетов: "))
+b = []
+c = None
+n = None
+
+for b in range ():
+    if b < 18:
+        return
+    elif 18 <= b < 25:
+        c = b * 990
+        c++
+    elif b >= 25:
+        n = b * 1390
+print(sum(n,c))
