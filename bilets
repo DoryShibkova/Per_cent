@@ -5,10 +5,8 @@ for i in range (0, a):
     b = int(input())
     if (b >= 18) and (b < 25):
         c += 990
-        print('<25')
     elif b >= 25:
-        c += 1390
-        print('>25')       
+        c += 1390      
 if a > 3:
     c = c - c/100 * 10   
 print(c)
